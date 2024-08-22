@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Todo List APP test</title>
+        <title>WAISL List APP test</title>
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@
 
             h1 {
                 background-color: #4CAF50;
-                color: white;
+                color: blue;
                 margin: 0;
                 padding: 20px;
                 text-align: center;
@@ -91,7 +91,7 @@
     <body>
         <h1>WAISL Cricket club Check-in Champions Squads</h1>
         <ul>
-            <% todolist.forEach(function(todo, index) { %>
+            <% WAISL.forEach(function(WAISL, index) { %>
             <li>
                 <a href="/todo/delete/<%= index %>" class="delete-btn">✘</a>
                 <a href="/todo/<%= index %>" class="edit-btn">✎</a>
